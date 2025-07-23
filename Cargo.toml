@@ -1,0 +1,12 @@
+[package]
+name = "otlp-string-processing"
+version = "0.1.0"
+edition = "2021"
+description = "Proof-of-concept for efficient OTLP string processing with deduplication and SIMD UTF-8 validation"
+
+[workspace]
+
+[dependencies]
+simdutf8 = "0.1.3"
+
+[dev-dependencies]
